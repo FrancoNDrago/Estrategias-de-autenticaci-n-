@@ -1,4 +1,4 @@
-const express        = require("express");
+const express = require("express");
 const sessionsRouter = express.Router();
 const { userModel }  = require(__dirname + "/../managerFiles/models/user.model"); 
 
